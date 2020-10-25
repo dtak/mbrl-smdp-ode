@@ -1,6 +1,6 @@
 # Model-based Reinforcement Learning for Semi-Markov Decision Processes with Neural ODEs
 
-This repository is the official implementation of "Model-based Reinforcement Learning for Semi-Markov Decision Processes with Neural ODEs".
+This repository is the official implementation of "Model-based Reinforcement Learning for Semi-Markov Decision Processes with Neural ODEs", NeurIPS 2020 [[arxiv](https://arxiv.org/abs/2006.16210)].
 
 ## Requirements
 
@@ -42,3 +42,13 @@ python run.py --mpc_ac --obs_normal --model latent-ode --env half_cheetah --time
 ## Pre-trained Models
 
 We provide pre-trained Latent-ODEs for all domains in [pretrain](pretrain). Note that for the windy gridworld, acrobot and HIV environments, models are trained on a fixed dataset, and for Mujoco tasks, models are trained with newly and previously collected data every epoch.
+
+## Bibtex
+```
+@article{du2020model,
+  title={Model-based Reinforcement Learning for Semi-Markov Decision Processes with Neural ODEs},
+  author={Du, Jianzhun and Futoma, Joseph and Doshi-Velez, Finale},
+  journal={arXiv preprint arXiv:2006.16210},
+  year={2020}
+}
+```
